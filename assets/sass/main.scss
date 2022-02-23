@@ -3,11 +3,12 @@
 @import 'libs/mixins';
 @import 'libs/vendor';
 @import 'libs/breakpoints';
+@import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic');
 
 /*
-	Dimension by HTML5 UP
+	Solid State by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -15,12 +16,12 @@
 // Breakpoints.
 
 	@include breakpoints((
-		xlarge:   ( 1281px,  1680px ),
-		large:    ( 981px,   1280px ),
-		medium:   ( 737px,   980px  ),
-		small:    ( 481px,   736px  ),
-		xsmall:   ( 361px,   480px  ),
-		xxsmall:  ( null,    360px  )
+		xlarge:    (1281px,   1680px   ),
+		large:     (981px,    1280px   ),
+		medium:    (737px,    980px    ),
+		small:     (481px,    736px    ),
+		xsmall:    (361px,    480px    ),
+		xxsmall:   (null,     360px    )
 	));
 
 // Base.
@@ -31,6 +32,8 @@
 
 // Component.
 
+	@import 'components/row';
+	@import 'components/section';
 	@import 'components/form';
 	@import 'components/box';
 	@import 'components/icon';
@@ -38,13 +41,16 @@
 	@import 'components/list';
 	@import 'components/actions';
 	@import 'components/icons';
+	@import 'components/contact';
+	@import 'components/pagination';
 	@import 'components/table';
 	@import 'components/button';
+	@import 'components/features';
 
 // Layout.
 
-	@import 'layout/bg';
-	@import 'layout/wrapper';
 	@import 'layout/header';
-	@import 'layout/main';
+	@import 'layout/menu';
+	@import 'layout/banner';
+	@import 'layout/wrapper';
 	@import 'layout/footer';

@@ -15,9 +15,8 @@
 
 _İTÜ'lüler için İTÜ'lülerden_
 
-_ITU Helper_ İstanbul Teknik Üniversitesi öğrencilerine yardım etmek amacıyla ön şart görselleştirme, ders planı oluşturma ve resmi İTÜ sitelerini
-birleştirme gibi hizmetler sağlayan bir açık kaynaklı websitesidir.
+_ITU Helper_ İstanbul Teknik Üniversitesi öğrencilerine yardım etmek amacıyla ön şart görselleştirme, ders planı oluşturma ve resmi İTÜ sitelerini birleştirme gibi hizmetler sağlayan bir açık kaynaklı websitesidir.
 
-_ITU Helper_'ya [_bu adresten_](https://itu-helper.github.io/home/) ulaşabilirsiniz.
+_ITU Helper_'a [_bu adresten_](https://itu-helper.github.io/home/) ulaşabilirsiniz.
 
 </div>
