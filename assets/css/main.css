@@ -22,11 +22,14 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -99,7 +102,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(64, 58, 45, 0.75), rgba(39, 39, 39, 0.75)), url("../../images/bg.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -3465,7 +3468,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(39, 39, 39, 0.75), rgba(64, 58, 45, 0.75)), url("../../images/bg.jpg");
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3577,7 +3580,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(64, 58, 45, 0.75), rgba(39, 39, 39, 0.75)), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
@@ -3766,19 +3769,19 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #272727;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23272727%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #272727, 0 1px 0 0 #272727;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #272727, 0 1px 0 0 #272727;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3827,35 +3830,35 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				background-color: #c99208;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23c99208%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #c99208, 0 1px 0 0 #c99208;
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #c99208, 0 1px 0 0 #c99208;
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3f4e85;
+				background-color: #272727;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23272727%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 #272727, 0 1px 0 0 #272727;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 #272727, 0 1px 0 0 #272727;
 				}
 
 			.wrapper.spotlight.style4 {
@@ -4071,7 +4074,7 @@ input, select, textarea {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(64, 58, 45, 0.75), rgba(39, 39, 39, 0.75)), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
