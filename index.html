@@ -24,25 +24,21 @@
 			<section id="banner">
 				<div class="inner">
 					<div class="logo">
-						<img src="images/logo.png" style="width: 15%;" />
+						<img src="images/logo.png" />
 						<h2>ITU Helper</h2>
 					</div>
-					<p style="text-transform: uppercase;">İTÜ'lülerden İTÜ'lülere</p>
-					<p>
-						<i class="fa-thin fa-less-than"></i>
-						&emsp;
-						<a href="#one" style="border-bottom: none;">Hizmetlerimiz</a>
-						&emsp;
-						⬢
-						&emsp;
-						<a href="#two" style="border-bottom: none;">İTÜ Kısayolları</a>
-						&emsp;
-						⬢
-						&emsp;
-						<a href="#three" style="border-bottom: none;">İlginizi Çekebilecekler</a>
-						&emsp;
-						<i class="fa-thin fa-greater-than"></i>
-					</p>
+					<p id="slogan">İTÜ'lülerden İTÜ'lülere</p>
+					<table id="list">
+						<tr>
+						  <th><i class="fa-thin fa-angles-left"></i></th>
+						  <th><a href="#one" style="border-bottom: none;">Hizmetlerimiz</a></th>
+						  <th><i class="fa-thin fa-pipe"></i></th>
+						  <th><a href="#two" style="border-bottom: none;">İTÜ Kısayolları</a></th>
+						  <th><i class="fa-thin fa-pipe"></i></th>
+						  <th><a href="#three" style="border-bottom: none;">Ekstralar</a></th>
+						  <th><i class="fa-thin fa-angles-right"></i></th>
+						</tr>
+					</table>
 				</div>
 			</section>
 
@@ -52,21 +48,47 @@
 				<!-- Section One -->
 				<section id="one" class="wrapper spotlight style1">
 					<div class="inner">
-						<a href="#" class="image"><img src="images/section_our_services.png"
-								alt="ITU Helper Logo with Backgound" /></a>
+						<a href="#" class="image">
+							<img src="images/section_our_services.png" alt="ITU Helper Logo with Backgound" />
+						</a>
 						<div class="content">
 							<h2 class="major">HİZMETLERİMİZ</h2>
-							<ul style="list-style-type: none;">
-								<li>
-									<a href="https://github.com/evrenge/ITU-yardimci" style="border-bottom: none;"><i
-											class="fa-thin fa-sitemap"></i>&nbsp;&nbsp;Ön Şart Görselleştirme</a>
-								</li>
-								<li>
-									<a href="https://github.com/evrenge/ITU-yardimci"><i
-											class="fa-thin fa-calendar-lines-pen"></i>&nbsp;&nbsp;Ders Programı
-										Oluşturma</a>
-								</li>
-							</ul>
+							<div>
+								<ul>
+									<li>
+										<a href="https://github.com/evrenge/ITU-yardimci">
+											<p>
+												<i class="fa-thin fa-sitemap"></i>
+												&nbsp;&nbsp;Ön Şart Görselleştirme
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/evrenge/ITU-yardimci">
+											<p>
+												<i class="fa-thin fa-calendar-lines-pen"></i>
+												&nbsp;&nbsp;Ders Programı Oluşturma
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/evrenge/ITU-yardimci">
+											<p>
+												<i class="fa-brands fa-telegram"></i>
+												&nbsp;&nbsp;Kontenjan Takipçi (Telegram)
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/evrenge/ITU-yardimci">
+											<p>
+												<i class="fa-thin fa-hundred-points"></i>
+												&nbsp;&nbsp;Ortalama Hesaplama
+											</p>
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -77,16 +99,142 @@
 						<a href="#" class="image"><img src="images/section_itu_official.png" alt="ITU Logo White" /></a>
 						<div class="content">
 							<h2 class="major">İTÜ KISAYOLLARI</h2>
-							<ul style="list-style-type: none;">
-								<li>
-									<a href="https://teknikforum.com/" style="border-bottom: none;"><i
-											class="fa-thin fa-square-list"></i></i>&nbsp;&nbsp;Teknik Forum</a>
-								</li>
-								<li>
-									<a href="http://www.notkutusu.com/"><i
-											class="fa-thin fa-calendar-lines-pen"></i>&nbsp;&nbsp;Not Kutusu</a>
-								</li>
-							</ul>
+							<div>
+								<ul>
+									<li>
+										<a href="https://www.sis.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Öğrenci İşleri Daire Başkanlığı
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://ninova.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Ninova
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://kepler-beta.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Kepler
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="http://ssb.sis.itu.edu.tr:9000/pls/PROD/twbkwbis.P_WWWLogin/?SessionId=f37c1776-d750-467a-b036-775edc59e7db">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Öğrenci Bilgi Sistemi
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://portal.itu.edu.tr/apps/default/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;İTÜ Portal
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://webmail.itu.edu.tr/login.php">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;İTÜ Webmail
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="http://ginova.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Ginova
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://lee.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Lisansüstü Eğitim Enstitüsü
+											</p>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li>
+										<a href="https://yardim.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;İTÜ Yardım
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.mathavuz.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Havuz Matematik
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://eskiweb.fizik.itu.edu.tr/physics-10x/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Havuz Fizik
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://kimyahavuz.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Havuz Kimya
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://econ.itu.edu.tr/egitim/lisans/havuz-dersi-eko201e">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Havuz Ekonomi
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="http://www.ydy.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;YDY
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="http://kutuphane.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;İTÜ Kütüphane
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://mbs.itu.edu.tr/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;İTÜ Mezunlar Portalı
+											</p>
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -94,23 +242,37 @@
 				<!-- Section Three -->
 				<section id="three" class="wrapper spotlight style3">
 					<div class="inner">
-						<a href="#" class="image"><img src="images/section_extras.png" alt="" /></a>
+						<a href="#" class="image"><img src="images/section_extras.png" alt="ITU Helper Extras Icon" /></a>
 						<div class="content">
 							<h2 class="major">EKSTRALAR</h2>
-							<ul style="list-style-type: none;">
-								<li>
-									<a href="https://teknikforum.com/" style="border-bottom: none;"><i
-											class="fa-thin fa-square-list"></i></i>&nbsp;&nbsp;Teknik Forum</a>
-								</li>
-								<li>
-									<a href="http://www.notkutusu.com/"><i
-											class="fa-thin fa-calendar-lines-pen"></i>&nbsp;&nbsp;Not Kutusu</a>
-								</li>
-								<li>
-									<a href="http://www.notkutusu.com/"><i
-											class="fa-thin fa-calendar-lines-pen"></i>&nbsp;&nbsp;Arı 24</a>
-								</li>
-							</ul>
+							<div>
+								<ul>
+									<li>
+										<a href="https://teknikforum.com/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Teknik Forum
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="http://www.notkutusu.com/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Not Kutusu
+											</p>
+										</a>
+									</li>
+									<li>
+										<a href="https://ari24.com/">
+											<p>
+												<img id="ico" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" />
+												&nbsp;&nbsp;Arı 24
+											</p>
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</section>

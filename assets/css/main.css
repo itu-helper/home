@@ -103,12 +103,9 @@ input, select, textarea {
 	body {
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(64, 58, 45, 0.75), rgba(39, 39, 39, 0.75)), url("../../images/bg.jpg");
-		background-size: auto,
- cover;
-		background-attachment: fixed,
- fixed;
-		background-position: center,
- center;
+		background-size: auto, cover;
+		background-attachment: fixed, fixed;
+		background-position: center, center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3414,6 +3411,10 @@ input, select, textarea {
 				width: 2.25em;
 			}
 
+			#banner .logo img {
+				width: 15%;
+			}
+
 		#banner h2 {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
@@ -3423,10 +3424,10 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			-moz-transition-delay: 0.65s;
-			-webkit-transition-delay: 0.65s;
-			-ms-transition-delay: 0.65s;
-			transition-delay: 0.65s;
+			-moz-transition-delay: 0.5s;
+			-webkit-transition-delay: 0.5s;
+			-ms-transition-delay: 0.5s;
+			transition-delay: 0.5s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
@@ -3447,10 +3448,10 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			-moz-transition-delay: 0.8s;
-			-webkit-transition-delay: 0.8s;
-			-ms-transition-delay: 0.8s;
-			transition-delay: 0.8s;
+			-moz-transition-delay: 0.7s;
+			-webkit-transition-delay: 0.7s;
+			-ms-transition-delay: 0.7s;
+			transition-delay: 0.7s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
@@ -3463,16 +3464,67 @@ input, select, textarea {
 			line-height: 2;
 		}
 
+			#banner #slogan {
+				text-transform: uppercase;
+			}
+
+
+		#banner #list {
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
+			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transform: translateX(0);
+			-webkit-transform: translateX(0);
+			-ms-transform: translateX(0);
+			transform: translateX(0);
+			-moz-transition-delay: 0.9s;
+			-webkit-transition-delay: 0.9s;
+			-ms-transition-delay: 0.9s;
+			transition-delay: 0.9s;
+			-moz-filter: blur(0);
+			-webkit-filter: blur(0);
+			-ms-filter: blur(0);
+			filter: blur(0);
+			opacity: 1;
+			font-family: Raleway, Helvetica, sans-serif;
+			letter-spacing: 0.1em;
+			border-collapse: unset;
+			width: 75%;
+			margin: auto;
+			}
+
+			#list tr {
+				background-color: transparent;
+			}
+
+			#list th {
+				font-size: 1em;
+				font-weight: 200;
+				padding: 0;
+				text-align: center;
+			}
+
+				#list th:nth-child(odd) {
+					width: 2.5%;
+				}
+
+				#list th:nth-child(even) {
+					width: 30%;
+				}
+
+					#list th:nth-child(even):hover {
+						background-color: rgba(88, 88, 95, 0.15);
+					}
+
 		@media screen and (max-width: 1280px) {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(39, 39, 39, 0.75), rgba(64, 58, 45, 0.75)), url("../../images/bg.jpg");
-				background-size: auto,
- cover;
-				background-position: center,
- center;
+				background-size: auto, cover;
+				background-position: center, center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3548,6 +3600,18 @@ input, select, textarea {
 			filter: blur(2px);
 		}
 
+		body.is-preload #banner #list {
+			opacity: 0;
+			-moz-transform: translateX(0.5em);
+			-webkit-transform: translateX(0.5em);
+			-ms-transform: translateX(0.5em);
+			transform: translateX(0.5em);
+			-moz-filter: blur(2px);
+			-webkit-filter: blur(2px);
+			-ms-filter: blur(2px);
+			filter: blur(2px);
+		}
+
 /* Wrapper */
 
 	#wrapper > header {
@@ -3581,10 +3645,8 @@ input, select, textarea {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(64, 58, 45, 0.75), rgba(39, 39, 39, 0.75)), url("../../images/bg.jpg");
-			background-size: auto,
- cover;
-			background-position: center,
- 0% 30%;
+			background-size: auto, cover;
+			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3594,10 +3656,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto,
- cover;
-			background-position: center,
- 0% 0%;
+			background-size: auto, cover;
+			background-position: center, 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3611,8 +3671,7 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto,
- 125%;
+			background-size: auto, 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -3909,6 +3968,14 @@ input, select, textarea {
 					box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
 				}
 
+		.wrapper.spotlight .content p{
+			margin: 0;
+		}
+		
+		.wrapper #ico {
+			height: 16px;
+		}
+
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
@@ -4006,6 +4073,24 @@ input, select, textarea {
 			}
 
 		}
+	
+	.wrapper.spotlight .inner .content ul{
+		list-style-type: none;
+	}
+
+	.wrapper.spotlight .inner .content a{
+		border-bottom: none;
+	}
+
+		.wrapper.spotlight:nth-child(even) .inner .content div {
+			width: 50%;
+			float: left;
+		}
+
+		.wrapper.spotlight:nth-child(odd) .inner .content div {
+			width: 50%;
+			float: right;
+		}
 
 /* Footer */
 
@@ -4075,10 +4160,8 @@ input, select, textarea {
 		#footer {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(64, 58, 45, 0.75), rgba(39, 39, 39, 0.75)), url("../../images/bg.jpg");
-			background-size: auto,
- cover;
-			background-position: center,
- center;
+			background-size: auto, cover;
+			background-position: center, center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
