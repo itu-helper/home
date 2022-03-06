@@ -5,9 +5,3 @@ endOfLine: auto
 arrowParens: avoid
 tabWidth: 4
 printWidth: 150
-
-
-overrides:
-  - files: '*.scss'
-    options:
-      printWidth: 200
