@@ -2659,6 +2659,10 @@ input, select, textarea {
 				text-align: center;
 			}
 
+				#list th a {
+					border-bottom: none;
+				}
+
 				#list th:nth-child(odd) {
 					width: 2.5%;
 				}
@@ -3167,6 +3171,19 @@ input, select, textarea {
 				line-height: 1;
 			}
 
+				#footer .inner .copyright #list th:nth-child(odd) {
+					width: 20%;
+				}
+
+				#footer .inner .copyright #list th:nth-child(3) {
+					vertical-align : middle;
+					text-align: center;
+				}
+
+				#footer .inner .copyright #list th:nth-child(even):hover {
+					background-color: rgba(88, 88, 95, 0);
+				}
+
 			#footer .inner .copyright th a {
 				color: rgba(255, 255, 255, 0.35);
 				font-size: 0.9em;
@@ -3177,9 +3194,7 @@ input, select, textarea {
 				background-color: rgba(88, 88, 95, 0);
 			}
 
-			#footer .inner .copyright #list th:nth-child(even):hover {
-				background-color: rgba(88, 88, 95, 0);
-			}
+			
 
 	@media screen and (max-width: 1280px) {
 
