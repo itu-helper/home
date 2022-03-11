@@ -255,6 +255,7 @@ input, select, textarea {
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			text-align: center;
 		}
 
 	h2 {
@@ -2965,9 +2966,12 @@ input, select, textarea {
 
 				.wrapper.spotlight .image img {
 					border-radius: 100%;
-					width: 100%;
 				}
 
+			.wrapper.spotlight .major img {
+				display: none;
+			}
+			
 			.wrapper.spotlight .content {
 				width: 100%;
 				-ms-flex: 2;
@@ -3087,12 +3091,14 @@ input, select, textarea {
 					-moz-align-items: -moz-flex-start;
 					-webkit-align-items: -webkit-flex-start;
 					-ms-align-items: -ms-flex-start;
-					align-items: flex-start;
+					align-items: center;
+					flex-direction: column !important;
 				}
 
 				.wrapper.spotlight .image {
 					width: 19em;
 					margin: 0 1.75em 2em 0;
+					display: none;
 				}
 
 				.wrapper.spotlight:nth-child(2n - 1) .image {
