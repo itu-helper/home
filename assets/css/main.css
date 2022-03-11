@@ -255,7 +255,6 @@ input, select, textarea {
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-			text-align: center;
 		}
 
 	h2 {
@@ -287,6 +286,10 @@ input, select, textarea {
 		h3 {
 			font-size: 0.8em;
 		}
+
+			h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+				text-align: center;
+			}
 
 	}
 
@@ -3148,45 +3151,35 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		#footer .inner form {
-			margin: 0 3em 0 0;
-			width: calc(50% - 1.5em);
-		}
-
-		#footer .inner .contact {
-			width: calc(50% - 1.5em);
-		}
-
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
-			list-style: none;
-			margin: 4em 0 2em 0;
 			padding: 2em 0 0 0;
-			width: 100%;
-			text-align: center;
 		}
 
-			#footer .inner .copyright li {
-				border-left: solid 2px rgba(255, 255, 255, 0.125);
-				color: rgba(255, 255, 255, 0.35);
-				display: inline-block;
-				font-size: 0.9em;
-				line-height: 1;
-				margin-left: 1em;
-				padding: 0;
-				padding-left: 1em;
-				width: 25%;
+			#footer .inner .copyright table, #footer .inner .copyright tr, #footer .inner .copyright td {
+				border: none;
+				
 			}
 
-				#footer .inner .copyright li:first-child {
-					border-left: 0;
-					margin-left: 0;
-					padding-left: 0;
-				}
+			#footer .inner .copyright th {
+				color: rgba(255, 255, 255, 0.35);
+				font-size: 0.9em;
+				line-height: 1;
+			}
 
-				#footer .inner .copyright li a {
-					color: inherit;
-				}
+			#footer .inner .copyright th a {
+				color: rgba(255, 255, 255, 0.35);
+				font-size: 0.9em;
+				line-height: 1;
+			}
+
+			#footer .inner .copyright #list tr:hover {
+				background-color: rgba(88, 88, 95, 0);
+			}
+
+			#footer .inner .copyright #list th:nth-child(even):hover {
+				background-color: rgba(88, 88, 95, 0);
+			}
 
 	@media screen and (max-width: 1280px) {
 
@@ -3214,16 +3207,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-				#footer .inner form {
-					width: 100%;
-					margin: 0 0 4em 0;
-				}
-
-				#footer .inner .contact {
-					width: 100%;
-					margin: 0 0 4em 0;
-				}
-
 				#footer .inner .copyright {
 					margin: 4em 0 2em 0;
 				}
@@ -3241,12 +3224,29 @@ input, select, textarea {
 				padding: 2em 2em 0.1em 2em ;
 			}
 
-				#footer .inner form {
-					margin: 0 0 3em 0;
+	}
+
+	@media screen and (max-width: 500px) {
+
+		#footer {
+			margin-top: -2.5em;
+			padding-top: 2.5em;
+		}
+
+			#footer .inner {
+				padding: 2em 2em 0.1em 2em ;
+			}
+
+				#footer #list.vertical {
+					display: none;
 				}
 
-				#footer .inner .contact {
-					margin: 0 0 3em 0;
+				#footer #list.horizontal {
+					display: block;
+				}
+
+				#footer #list.horizontal th {
+					line-height: 20px;
 				}
 
 	}
