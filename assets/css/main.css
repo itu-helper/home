@@ -2964,10 +2964,8 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
 				margin: 0 3em 2em 0;
 				width: 22em;
-				overflow: hidden;
 				-ms-flex: 1;
 			}
 
@@ -3110,6 +3108,11 @@ input, select, textarea {
 
 				.wrapper.spotlight:nth-child(2n - 1) .image {
 					margin: 0 0 2em 1.75em;
+				}
+
+				.wrapper.spotlight:nth-child(odd) .inner .content div {
+					width: 100% !important;
+					text-align: center;
 				}
 
 		}
