@@ -116,7 +116,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16.5pt;
+		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -339,7 +339,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-		margin: 2.5em 0;
+		margin: 5em 0;
 	}
 
 		hr.major {
@@ -586,19 +586,19 @@ input, select, textarea {
 
 		.row.gtr-200 {
 			margin-top: 0;
-			margin-left: -3.5em;
+			margin-left: -5em;
 		}
 
 			.row.gtr-200 > * {
-				padding: 0 0 0 3.5em;
+				padding: 0 0 0 5em;
 			}
 
 			.row.gtr-200.gtr-uniform {
-				margin-top: -3.5em;
+				margin-top: -5em;
 			}
 
 				.row.gtr-200.gtr-uniform > * {
-					padding-top: 3.5em;
+					padding-top: 5em;
 				}
 
 		@media screen and (max-width: 1680px) {
@@ -829,19 +829,19 @@ input, select, textarea {
 
 				.row.gtr-200 {
 					margin-top: 0;
-					margin-left: -3.5em;
+					margin-left: -5em;
 				}
 
 					.row.gtr-200 > * {
-						padding: 0 0 0 3.5em;
+						padding: 0 0 0 5em;
 					}
 
 					.row.gtr-200.gtr-uniform {
-						margin-top: -3.5em;
+						margin-top: -5em;
 					}
 
 						.row.gtr-200.gtr-uniform > * {
-							padding-top: 3.5em;
+							padding-top: 5em;
 						}
 
 		}
@@ -1074,19 +1074,19 @@ input, select, textarea {
 
 				.row.gtr-200 {
 					margin-top: 0;
-					margin-left: -3.5em;
+					margin-left: -5em;
 				}
 
 					.row.gtr-200 > * {
-						padding: 0 0 0 3.5em;
+						padding: 0 0 0 5em;
 					}
 
 					.row.gtr-200.gtr-uniform {
-						margin-top: -3.5em;
+						margin-top: -5em;
 					}
 
 						.row.gtr-200.gtr-uniform > * {
-							padding-top: 3.5em;
+							padding-top: 5em;
 						}
 
 		}
@@ -1319,19 +1319,19 @@ input, select, textarea {
 
 				.row.gtr-200 {
 					margin-top: 0;
-					margin-left: -3.5em;
+					margin-left: -5em;
 				}
 
 					.row.gtr-200 > * {
-						padding: 0 0 0 3.5em;
+						padding: 0 0 0 5em;
 					}
 
 					.row.gtr-200.gtr-uniform {
-						margin-top: -3.5em;
+						margin-top: -5em;
 					}
 
 						.row.gtr-200.gtr-uniform > * {
-							padding-top: 3.5em;
+							padding-top: 5em;
 						}
 
 		}
@@ -1564,19 +1564,19 @@ input, select, textarea {
 
 				.row.gtr-200 {
 					margin-top: 0;
-					margin-left: -2.5em;
+					margin-left: -5em;
 				}
 
 					.row.gtr-200 > * {
-						padding: 0 0 0 2.5em;
+						padding: 0 0 0 5em;
 					}
 
 					.row.gtr-200.gtr-uniform {
-						margin-top: -2.5em;
+						margin-top: -5em;
 					}
 
 						.row.gtr-200.gtr-uniform > * {
-							padding-top: 2.5em;
+							padding-top: 5em;
 						}
 
 		}
@@ -2086,7 +2086,7 @@ input, select, textarea {
 
 		ul.contact li {
 			text-decoration: none;
-			margin: 2.5em 0 0 0;
+			margin: 5em 0 0 0;
 			padding: 0 0 0 3.25em;
 			position: relative;
 		}
@@ -2109,13 +2109,13 @@ input, select, textarea {
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				display: inline-block;
 				font-size: 0.8em;
-				height: 2.5em;
+				height: 5em;
 				left: 0;
 				line-height: 2.35em;
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: 2.5em;
+				width: 5em;
 			}
 
 			ul.contact li:first-child {
@@ -2406,7 +2406,7 @@ input, select, textarea {
 				margin-left: -1.75em;
 				margin-top: -1.75em;
 				position: relative;
-				width: calc(100% + 3.5em);
+				width: calc(100% + 5em);
 			}
 
 				.features article .image img {
@@ -2448,9 +2448,9 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
 		background-color: rgba(53, 56, 73, 0.95);
-		height: 3.5em;
+		height: 5em;
 		left: 0;
-		line-height: 3.5em;
+		line-height: 5em;
 		padding: 0 1.25em;
 		position: fixed;
 		top: 0;
@@ -2664,7 +2664,7 @@ input, select, textarea {
 				}
 
 				#list th:nth-child(odd) {
-					width: 2.5%;
+					width: 5%;
 				}
 
 				#list th:nth-child(even) {
@@ -2687,7 +2687,7 @@ input, select, textarea {
 				background-image: linear-gradient(to top, rgba(39, 39, 39, 0.75), rgba(64, 58, 45, 0.75)), url("../../images/bg.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
-				margin-bottom: -6.5em;
+				margin-bottom: -5em;
 			}
 
 		}
@@ -2832,7 +2832,7 @@ input, select, textarea {
 			background-image: linear-gradient(to top, rgba(64, 58, 45, 0.75), rgba(39, 39, 39, 0.75)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
-			margin-bottom: -6.5em;
+			margin-bottom: -5em;
 		}
 
 	}
@@ -2872,7 +2872,7 @@ input, select, textarea {
 
 	.wrapper {
 		background-color: #2e3141;
-		margin: 6.5em 0;
+		margin: 5em 0;
 		position: relative;
 	}
 
@@ -2893,14 +2893,14 @@ input, select, textarea {
 			background-size: 100% 100%;
 			content: '';
 			display: block;
-			height: 6.5em;
+			height: 5em;
 			position: absolute;
 			width: 100%;
 		}
 
 		.wrapper:before {
 			left: 0;
-			top: -6.5em;
+			top: -5em;
 		}
 
 		.wrapper:after {
@@ -2908,7 +2908,7 @@ input, select, textarea {
 			-webkit-transform: scaleY(-1);
 			-ms-transform: scaleY(-1);
 			transform: scaleY(-1);
-			bottom: -6.5em;
+			bottom: -5em;
 			left: 0;
 		}
 
@@ -2927,7 +2927,7 @@ input, select, textarea {
 		}
 
 		.wrapper .inner {
-			padding: 3em 0 1em 0 ;
+			padding: 1em 0 1em 0 ;
 			margin: 0 auto;
 			width: 55em;
 		}
@@ -3054,7 +3054,7 @@ input, select, textarea {
 				}
 
 				.wrapper .inner {
-					padding: 3em 3em 1em 3em ;
+					padding: 1em 3em 1em 3em ;
 					width: 100%;
 				}
 
